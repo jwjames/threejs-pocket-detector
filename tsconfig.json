@@ -1,0 +1,22 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@data/*": ["data/*"],
+      "@hooks/*": ["hooks/*"],
+      "@typings/*": ["types/*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"]
+    }
+  }
+}

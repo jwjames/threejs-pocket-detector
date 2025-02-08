@@ -1,0 +1,1 @@
+export { generateColorForPocket } from "./generateColorForPocket";

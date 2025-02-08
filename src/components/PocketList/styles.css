@@ -1,0 +1,40 @@
+.data-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 350px;
+  height: 100vh;
+  padding: 20px 20px 0 20px;
+  overflow-y: auto;
+  color: #999;
+  background-color: #111;
+  border-left: 1px solid black;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pocket-item {
+  max-width: 500px;
+  word-wrap: break-word;
+}
+
+.pocket-label {
+  font-weight: bold;
+  color: #a3ffea;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.entity-label {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.note {
+  font-size: 12px;
+  margin-top: 15px;
+}
