@@ -2,6 +2,9 @@
 
 A React application that detects and visualizes pockets in 3D geometry using Three.js. This tool helps identify and analyze connected geometric entities based on their edge relationships.
 
+<img width="1270" alt="image" src="https://github.com/user-attachments/assets/8b6ed461-2e98-4621-9760-f2037bfbb0aa" />
+
+
 ## Features
 
 - **Pocket Detection**: Identifies connected entities through concave edges
